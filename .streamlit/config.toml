@@ -1,0 +1,29 @@
+# .streamlit/config.toml - Streamlit Configuration
+
+# Streamlit configuration file for Expense Tracker Pro
+# Place this file in ~/.streamlit/ directory
+
+[theme]
+primaryColor = "#00D9FF"
+backgroundColor = "#0F1419"
+secondaryBackgroundColor = "#1a1f2e"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+toolbarMode = "viewer"
+
+[logger]
+level = "info"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 200
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
